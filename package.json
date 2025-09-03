@@ -1,0 +1,29 @@
+{
+  "name": "peliculas-backend",
+  "version": "1.0.0",
+  "description": "API REST para la gestion de peliculas con Node js, Express y MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "mongoDB",
+    "api",
+    "reest",
+    "peliculas"
+  ],
+  "author": "JuanDi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mongodb": "^6.19.0",
+    "mongoose": "^8.18.0",
+    "validator": "^13.15.15"
+  }
+}
