@@ -13,8 +13,8 @@ const productoraSchema = new Schema({
     required: [true, "El nombre de la productora es obligatorio"],
     unique: true,
     trim: true,
-    minLength: [2, "Los nombres deben tener mínimo 2 caracteres"],
-    maxLength: [50, "Los nombres no pueden exceder los 50 caracteres"]
+    minLength: [2, "El nombre debe tener mínimo 2 caracteres"],
+    maxLength: [50, "El nombre no puede exceder los 50 caracteres"]
   },
   Estado: {
     type: String,
